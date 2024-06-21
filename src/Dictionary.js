@@ -4,12 +4,14 @@ import axios from "axios";
 export default function Dictionary() {
   let [word, setWord] = useState(" ");
 
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
   function search(event) {
     event.preventDefault();
 
-    function handleResponse(response) {}
-    let apiUrl =
-      "https://api.shecodes.io/dictionary/v1/define?word={word}&key={key}";
+    let key = `d3ab758b0c38d3da48da0519t5fdocd3`;
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word={word}&key={key}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
