@@ -13,7 +13,9 @@ export default function App() {
           this dictionary application was coded by{" "}
           <a href="https://github.com/emilyyvonne">Emily Brisbin</a> and is
           hosted by{" "}
-          <a href="https://majestic-truffle-50d583.netlify.app/">Netlify</a>
+          <a href="https://master--dashing-starlight-85cb95.netlify.app/">
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
